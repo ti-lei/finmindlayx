@@ -31,7 +31,7 @@ services:
       links: 
           - mysql:db
       ports:
-          - 8000:80
+          - 7000:80
       depends_on:
         - mysql
       networks:

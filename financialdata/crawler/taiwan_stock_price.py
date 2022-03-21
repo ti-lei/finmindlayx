@@ -36,6 +36,7 @@ def gen_task_paramter_list(
         for day in range(days)
     ]
     # 排除掉周末非交易日
+    # 這段看不懂...
     date_list = [
         dict(
             date=str(d),
@@ -286,6 +287,7 @@ def convert_date(date: str) -> str:
 def crawler(
     parameter: typing.Dict[
         str,
+        # 為什麼這裡變成一個list??
         typing.List[
             typing.Union[
                 str, int, float

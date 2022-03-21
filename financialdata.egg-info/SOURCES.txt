@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+financialdata.egg-info/PKG-INFO
+financialdata.egg-info/SOURCES.txt
+financialdata.egg-info/dependency_links.txt
+financialdata.egg-info/top_level.txt

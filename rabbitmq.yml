@@ -4,7 +4,7 @@ services:
   rabbitmq:
     image: 'rabbitmq:3.6-management-alpine'
     ports: # docker publish port 5672/15672 to 5672/15672 (將 docker 內部 ip 5672/15672, 跟外部 5672/15672 做連結)
-      - '5672:5672'
+      - '5600:5600'
       - '15672:15672'
     environment:
       RABBITMQ_DEFAULT_USER: "worker"
